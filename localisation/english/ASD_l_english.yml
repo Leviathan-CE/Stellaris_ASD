@@ -30,3 +30,9 @@ TITAN_MID_C3S2P1:0 "Carrier Core"
 
 TITAN_STERN_M2S2G2:0 "Capital Stern"
 TITAN_STERN_C2P1:0 "Carrier  Stern"
+
+####Computer components
+
+COMBAT_COMPUTER_LRE_LINE_DEFAULT:5 "Line Stance"
+COMBAT_COMPUTER_LRE_ARTILLARY_DEFAULT:6 "Artillary Stance"
+COMBAT_COMPUTER_LRE_CARRIER_DEFAULT:7 "Bombard Stance"

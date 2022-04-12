@@ -1,0 +1,84 @@
+@cost0 = 0
+@cost1 = 5
+@cost2 = 10
+@cost3 = 20
+
+@power0 = -5
+@power1 = -10
+@power2 = -15
+@power3 = -25
+
+
+#non upgradeable long range engament for destoryers
+#and corvette
+utility_component_template = {
+	key = "COMBAT_COMPUTER_LRE_LINE_DEFAULT"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = @power0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost1
+		}
+	}
+	ship_behavior = "line"
+
+	class_restriction = { shipclass_military }
+	size_restriction = {corvette destroyer }
+	component_set = "combat_computers"
+	
+
+	ai_weight = {
+		weight = 1
+	}
+}
+utility_component_template = {
+	key = "COMBAT_COMPUTER_LRE_ARTILLARY_DEFAULT"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = @power0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost2
+		}
+	}
+	ship_behavior = "artillery"
+
+	class_restriction = { shipclass_military }
+	size_restriction = {corvette destroyer }
+	component_set = "combat_computers"
+	
+
+	ai_weight = {
+		weight = 1
+	}
+}
+utility_component_template = {
+	key = "COMBAT_COMPUTER_LRE_CARRIER_DEFAULT"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = @power0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost3
+		}
+	}
+	ship_behavior = "carrier"
+
+	class_restriction = { shipclass_military }
+	size_restriction = {corvette destroyer }
+	component_set = "combat_computers"
+	
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+
