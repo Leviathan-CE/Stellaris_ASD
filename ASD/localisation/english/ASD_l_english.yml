@@ -1,0 +1,32 @@
+﻿l_english:
+ 
+CORVETTE_MID_S2U5:0 "Armoured Gunship"
+CORVETTE_MID_L1M1:0 "Assualt Ship"
+
+DESTROYER_BOW_M2S1P1:0 "Valkery Bow"
+DESTROYER_BOW_P1S1:0 "Devastator Bow"
+DESTROYER_STERN_M2:0 "Valkery Stern"
+DESTROYER_STERN_S1:0 "Devastator Stern"
+
+CRUISER_BOW_C1P1:0 "Carrier Bow"
+CRUISER_BOW_M3P1:0 "Assault Bow"
+
+CRUISER_MID_M1S1:0 "Devastator Core"
+CRUISER_MID_S6:0 "Assualt Core"
+
+CRUISER_STERN_S1P1:0 "Interceptor Stern"
+CRUISER_STERN_P1:0 "Vangaurd Stern"
+
+BATTLESHIP_BOW_L1S2:0 "Dreadnaught Bow"
+
+BATTLESHIP_MID_M2SHB:0 "Dreadnaught Core"
+
+BATTLESHIP_STERN_MT2:0 "Dreadnaught Stern"
+
+TITAN_BOW_XL3:0 "Artillery Bow"
+
+TITAN_MID_L2S3P1:0 "Capital Core"
+TITAN_MID_C3S2P1:0 "Carrier Core"
+
+TITAN_STERN_M2S2G2:0 "Capital Stern"
+TITAN_STERN_C2P1:0 "Carrier  Stern"
